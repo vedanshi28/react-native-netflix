@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "netflix-project",
+    "slug": "netflix-project",
+    "description" : "This is a Netflix React Native App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/netflix-icon.256x256.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/netflix-icon.256x256.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
